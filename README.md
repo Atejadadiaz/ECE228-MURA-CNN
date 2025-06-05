@@ -50,8 +50,8 @@ Run the notebook below to train, evaluate, and visualize the results:
 To train the model (example):
 
 ```bash
-python src/train.py
+   python src/train.py
 
 To evaluate a saved model (example):
-
-python src/evaluate.py --model_path results/resnet18_mura.pth
+```bash
+   python src/evaluate.py --model_path results/resnet18_mura.pth
