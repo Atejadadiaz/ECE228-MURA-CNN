@@ -53,5 +53,6 @@ To train the model (example):
    python src/train.py
 
 To evaluate a saved model (example):
+
 ```bash
    python src/evaluate.py --model_path results/resnet18_mura.pth
