@@ -7,7 +7,8 @@ This project implements a convolutional neural network (CNN) to detect musculosk
 Develop a CNN to detect musculoskeletal abnormalities in X-rays using the MURA dataset.
 
 ## Repository Structure
-- `Data/`: Instructions to access the MURA dataset
-- `notebooks/`: Jupyter notebook with all code and results.
-- `results/`: Saved model weights and figures.
+- `data/`: Scripts or instructions to obtain and preprocess the MURA dataset.
+- `notebooks/`: Jupyter notebooks for data exploration and model evaluation.
+- `results/`: Output results, including trained models and evaluation metrics.
+- `src/`: Source code for model architectures, training routines, and utilities.
 - `README.md`: Project description and instructions
