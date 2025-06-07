@@ -17,7 +17,7 @@ Develop a CNN to detect musculoskeletal abnormalities in X-rays using the MURA d
 
 1. **Clone this repository**:
 
-   bash
+   bash`
    git clone https://github.com/Atejadadiaz/ECE228-MURA-CNN.git
    cd ECE228-MURA-CNN
    
