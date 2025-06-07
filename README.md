@@ -57,8 +57,8 @@ To train the model (example):
    python src/train.py
    python src/evaluate.py --model_path results/model.pth
 
-
 > This project currently works entirely from the notebook. Scripts can be added later if needed.
+
 
 ### Results & Reproducibility
 
@@ -72,7 +72,6 @@ To train the model (example):
    import torch
    model.load_state_dict(torch.load('results/model.pth'))
    model.eval()
-
 
 > Ensure the same model architecture is used when loading saved weights.
 
