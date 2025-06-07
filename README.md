@@ -43,15 +43,31 @@ There are two ways to run this project:
 
 Run the notebook below to train, evaluate, and visualize the results:
 
+notebooks/Project_Code.ipynb
+
 > Make sure the MURA dataset is correctly placed and the required libraries are installed.
 
-### 💻 Option 2: Use scripts (if added to `src/`)
+### 💻 Option 2: Use scripts 
 
 To train the model (example):
 
-   ```bash
-   python src/train.py
+python src/train.py
+python src/evaluate.py --model_path results/model.pth
 
-To evaluate a saved model (example):
+> This project currently works entirely from the notebook. Scripts can be added later if needed.
 
-   python src/evaluate.py --model_path results/resnet18_mura.pth
+### Results & Reproducibility
+
+* All training and evaluation steps are included in notebooks/Project_Code.ipynb.
+
+* Trained model weights and generated plots are stored in the results/ folder.
+
+* You can reload saved models using:
+
+import torch
+model.load_state_dict(torch.load('results/model.pth'))
+model.eval()
+
+> Ensure the same model architecture is used when loading saved weights.
+
+This setup allows full reproducibility of the results shown in the final report.
