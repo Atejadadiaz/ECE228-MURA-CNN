@@ -22,8 +22,9 @@ Develop a CNN to detect musculoskeletal abnormalities in X-rays using the MURA d
    cd ECE228-MURA-CNN
    
 2. **Install dependencies**:
-
+   ```bash
    pip install -r requirements.txt
+
 
 ## Dataset
 
