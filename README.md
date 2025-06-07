@@ -52,6 +52,7 @@ notebooks/Project_Code.ipynb
 
 To train the model (example):
 
+```bash
 python src/train.py
 python src/evaluate.py --model_path results/model.pth
 
@@ -65,10 +66,9 @@ python src/evaluate.py --model_path results/model.pth
 
 * You can reload saved models using:
 
+```bash
 import torch
-
 model.load_state_dict(torch.load('results/model.pth'))
-
 model.eval()
 
 > Ensure the same model architecture is used when loading saved weights.
