@@ -25,7 +25,6 @@ Develop a CNN to detect musculoskeletal abnormalities in X-rays using the MURA d
    ```bash
    pip install -r requirements.txt
 
-
 ## Dataset
 
 This project uses the [MURA dataset](https://stanfordmlgroup.github.io/competitions/mura/), a large collection of musculoskeletal radiographs.
@@ -53,9 +52,10 @@ notebooks/Project_Code.ipynb
 
 To train the model (example):
 
-```bash
-python src/train.py
-python src/evaluate.py --model_path results/model.pth
+   ```bash
+   python src/train.py
+   python src/evaluate.py --model_path results/model.pth
+
 
 > This project currently works entirely from the notebook. Scripts can be added later if needed.
 
@@ -67,10 +67,11 @@ python src/evaluate.py --model_path results/model.pth
 
 * You can reload saved models using:
 
-```bash
-import torch
-model.load_state_dict(torch.load('results/model.pth'))
-model.eval()
+   ```bash
+   import torch
+   model.load_state_dict(torch.load('results/model.pth'))
+   model.eval()
+
 
 > Ensure the same model architecture is used when loading saved weights.
 
