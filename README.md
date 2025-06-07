@@ -20,12 +20,12 @@ Develop a CNN to detect musculoskeletal abnormalities in X-rays using the MURA d
    ```bash
    git clone https://github.com/Atejadadiaz/ECE228-MURA-CNN.git
    cd ECE228-MURA-CNN
-   
+   ```
 2. **Install dependencies**:
 
    ```bash
    pip install -r requirements.txt
-
+   ```
 ## Dataset
 
 This project uses the [MURA dataset](https://stanfordmlgroup.github.io/competitions/mura/), a large collection of musculoskeletal radiographs.
@@ -56,7 +56,7 @@ To train the model (example):
    ```bash
    python src/train.py
    python src/evaluate.py --model_path results/model.pth
-
+   ```
 > This project currently works entirely from the notebook. Scripts can be added later if needed.
 
 
@@ -72,7 +72,7 @@ To train the model (example):
    import torch
    model.load_state_dict(torch.load('results/model.pth'))
    model.eval()
-
+   ```
 > Ensure the same model architecture is used when loading saved weights.
 
 This setup allows full reproducibility of the results shown in the final report.
