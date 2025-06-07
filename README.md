@@ -22,6 +22,7 @@ Develop a CNN to detect musculoskeletal abnormalities in X-rays using the MURA d
    cd ECE228-MURA-CNN
    
 2. **Install dependencies**:
+
    pip install -r requirements.txt
 
 ## Dataset
@@ -65,7 +66,9 @@ python src/evaluate.py --model_path results/model.pth
 * You can reload saved models using:
 
 import torch
+
 model.load_state_dict(torch.load('results/model.pth'))
+
 model.eval()
 
 > Ensure the same model architecture is used when loading saved weights.
