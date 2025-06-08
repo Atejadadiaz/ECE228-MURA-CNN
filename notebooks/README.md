@@ -10,6 +10,7 @@ This folder contains the main notebook used to run and evaluate the models in th
   - Load CNN model (ResNet, DenseNet, etc.)
   - Train and validate the model
   - Evaluate results and plot training curves
+- `compare_models.ipynb`: Visualizes and compares training and validation accuracy and Kappa score across different model architectures using the saved results.
 
 ## How to Use in Google Colab
 
