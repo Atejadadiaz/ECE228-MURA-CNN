@@ -54,15 +54,14 @@ notebooks/ECE228_Project.ipynb
 To train the model (example):
 
    ```bash
-   python src/train.py
-   python src/evaluate.py --model_path results/model.pth
+   python src/train.py --model_path results/model.pth
    ```
 > This project currently works entirely from the notebook. Scripts can be added later if needed.
 
 
 ### Results & Reproducibility
 
-* All training and evaluation steps are included in notebooks/compare_models.ipynb.
+* All training and evaluation steps are included in notebooks/Compare_models.ipynb.
 
 * Trained model weights and generated plots are stored in the results/ folder.
 
