@@ -62,7 +62,7 @@ To train the model (example):
 
 ### Results & Reproducibility
 
-* All training and evaluation steps are included in notebooks/Project_Code.ipynb.
+* All training and evaluation steps are included in notebooks/ECE228_Project.ipynb.
 
 * Trained model weights and generated plots are stored in the results/ folder.
 
