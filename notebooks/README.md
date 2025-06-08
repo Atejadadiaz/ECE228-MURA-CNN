@@ -4,7 +4,7 @@ This folder contains Jupyter notebooks used for developing, testing, and analyzi
 
 ## Files
 
-- `Project_Code.ipynb`: Main notebook that includes the complete training and evaluation pipeline. It uses the modules from the `src/` folder and generates training curves and evaluation metrics.
+- `ECE228_Project.ipynb`: Main notebook that includes the complete training and evaluation pipeline. It uses the modules from the `src/` folder and generates training curves and evaluation metrics.
 
 ## How to Use
 
