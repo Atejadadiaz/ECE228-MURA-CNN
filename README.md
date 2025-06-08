@@ -45,7 +45,7 @@ There are two ways to run this project:
 
 Run the notebook below to train, evaluate, and visualize the results:
 
-notebooks/Project_Code.ipynb
+notebooks/ECE228_Project.ipynb
 
 > Make sure the MURA dataset is correctly placed and the required libraries are installed.
 
@@ -62,7 +62,7 @@ To train the model (example):
 
 ### Results & Reproducibility
 
-* All training and evaluation steps are included in notebooks/ECE228_Project.ipynb.
+* All training and evaluation steps are included in notebooks/compare_models.ipynb.
 
 * Trained model weights and generated plots are stored in the results/ folder.
 
